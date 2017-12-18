@@ -1,0 +1,11 @@
+/yarn.lock
+/node_modules
+/.vscode/
+/.sass-cache
+/_site
+/_sass
+/_posts
+/.npmignore
+/dist_scripts
+/tsconfig.json
+/test

@@ -1,0 +1,9 @@
+/dist/
+/yarn.lock
+/node_modules
+/.vscode/
+/.sass-cache
+/_site
+/_sass
+/_posts
+/dist_scripts

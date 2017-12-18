@@ -1,0 +1,39 @@
+{
+  "name": "bomba",
+  "author": {
+    "email": "o.jamal97@gmail.com",
+    "name": "Omran Jamal",
+    "url": "https://github.com/omranjamal"
+  },
+  "keywords": [
+    "file",
+    "local",
+    "transfer",
+    "simple",
+    "cross",
+    "platform",
+    "cli",
+    "tool"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hedronium/Bomba"
+  },
+  "description": "A simple, intuitive and fast cli tool to transfer files locally.",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.0",
+    "@types/node": "^8.0.26"
+  },
+  "bin": {
+    "bomba": "./dist/cli.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "node ./node_modules/bin/tsc"
+  },
+  "version": "0.0.1"
+}
